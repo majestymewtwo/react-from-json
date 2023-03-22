@@ -1,0 +1,94 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "mi notebook pro",
+      "price": 50000,
+      "mrp": 60000,
+      "discount": "50%",
+      "ratings": 4.5,
+      "reviewcount": 2298
+    },
+    {
+      "id": 2,
+      "name": "pen drive",
+      "price": 50000,
+      "mrp": 60000,
+      "discount": "50%",
+      "ratings": 4.5,
+      "reviewcount": 2298
+    },
+    {
+      "id": 3,
+      "name": "meditation and its practices",
+      "price": 50,
+      "mrp": 120,
+      "discount": "70%",
+      "ratings": 4.8,
+      "reviewcount": 3487
+    },
+    {
+      "id": 4,
+      "name": "mi notebook pro",
+      "price": 50000,
+      "mrp": 60000,
+      "discount": "50%",
+      "ratings": 4.5,
+      "reviewcount": 2298
+    },
+    {
+      "id": 5,
+      "name": "Poco c50",
+      "price": 2335,
+      "mrp": 6343,
+      "discount": "90%",
+      "ratings": 3.5,
+      "reviewcount": 3422
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy F04",
+      "price": 50,
+      "mrp": 120,
+      "discount": "70%",
+      "ratings": 4.8,
+      "reviewcount": 3487
+    },
+    {
+      "id": 7,
+      "name": "Motorola g52",
+      "price": 50000,
+      "mrp": 60000,
+      "discount": "50%",
+      "ratings": 4.5,
+      "reviewcount": 2298
+    },
+    {
+      "id": 8,
+      "name": "Redmi 10",
+      "price": 50000,
+      "mrp": 60000,
+      "discount": "50%",
+      "ratings": 4.5,
+      "reviewcount": 2298
+    },
+    {
+      "id": 9,
+      "name": "Motorola g52",
+      "price": 50,
+      "mrp": 120,
+      "discount": "70%",
+      "ratings": 4.8,
+      "reviewcount": 3487
+    },
+    {
+      "id": 9,
+      "name": "Redmi note 11",
+      "price": 50,
+      "mrp": 120,
+      "discount": "70%",
+      "ratings": 4.8,
+      "reviewcount": 3487
+    }
+  ]
+}
