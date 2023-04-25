@@ -1,0 +1,24 @@
+/* Example CSS styles */
+.component-1 {
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .child-component-1 {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .child-component-2 {
+    color: green;
+    font-style: italic;
+  }
+  
+  .component-2 {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -23,7 +23,7 @@ export default function Product(props) {
                 {props.type == "best" ? (
                   <p class="card-text">Rs.{product.price}</p>
                 ) : props.type == "discount" ? (
-                  <p>Min {product.discount} dicount</p>
+                  <p>Min {product.discount} discount</p>
                 ) : (
                   <div>
                     <div className="row">

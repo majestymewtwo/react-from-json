@@ -1,0 +1,39 @@
+[
+  {
+    "tag": "div",
+    "content": "Component 1",
+    "props": {
+      "className": "component-1",
+      "styles": { "color": "red" }
+    },
+    "children": [
+      {
+        "tag": "p",
+        "content": "Child Component 1",
+        "props": {
+          "className": "child-component-1",
+          "styles": { "fontWeight": "bold" }
+        },
+        "pageKey": "page1"
+      },
+      {
+        "tag": "p",
+        "content": "Child Component 2",
+        "props": {
+          "className": "child-component-2",
+          "styles": { "fontStyle": "italic" }
+        },
+        "pageKey": "page2"
+      }
+    ]
+  },
+  {
+    "tag": "button",
+    "content": "Component 2",
+    "props": {
+      "className": "component-2"
+    },
+    "onClick" : "alert",
+    "pageKey": "page1"
+  }
+]
