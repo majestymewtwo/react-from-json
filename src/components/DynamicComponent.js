@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/configurecss.css";
+import amazonlogo from "../assets/amazonlogo.png"
 import { Link } from "react-router-dom";
 
 const onclick1 = {
@@ -26,7 +27,7 @@ const DynamicComponent = ({ config, pageKey }) => {
     if (componentPageKey && componentPageKey !== pageKey) {
       return null;
     }
-    if (ComponentTag == "img" || ComponentTag == "input") {
+    if (ComponentTag == "img" || ComponentTag == "input"||ComponentTag=='hr') {
       return <ComponentTag {...props} onClick={onclick1[onClick]} />;
     }
 
