@@ -1,39 +1,90 @@
 [
   {
     "tag": "div",
-    "content": "Component 1",
     "props": {
-      "className": "component-1",
-      "styles": { "color": "red" }
+      "style": {
+        "width": "100%",
+        "display": "flex",
+        "justify-content": "center"
+      }
     },
     "children": [
       {
-        "tag": "p",
-        "content": "Child Component 1",
+        "tag": "div",
         "props": {
-          "className": "child-component-1",
-          "styles": { "fontWeight": "bold" }
+          "className": "heading",
+          "style": { "border": "1px solid black", "margin": "10px" }
         },
-        "pageKey": "page1"
-      },
-      {
-        "tag": "p",
-        "content": "Child Component 2",
-        "props": {
-          "className": "child-component-2",
-          "styles": { "fontStyle": "italic" }
-        },
-        "pageKey": "page2"
+        "children": [
+          { "tag": "h2", "content": "Sign in" },
+          {
+            "tag": "h4",
+            "content": "Email or mobile phone number",
+            "pageKey": "page1"
+          },
+          { "tag": "h4", "content": "+91 9361455974", "pageKey": "page2" },
+          {
+            "tag": "div",
+            "children": [
+              { "tag": "p", "content": "Password" },
+              {
+                "tag": "a",
+                "content": "Forgot password",
+                "props": {
+                  "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
+                  "style": { "text-decoration": "none", "color": "#7f8db0" }
+                }
+              }
+            ],
+            "props": {
+              "style": {
+                "display": "flex",
+                "justify-content": "space-between",
+                "align-self": "center"
+              }
+            },
+            "pageKey": "page2"
+          },
+          {
+            "tag": "form",
+            "children": [
+              {
+                "tag": "input",
+                "props": {
+                  "type": "text",
+                  "id": "phno",
+                  "style": { "width": "100%", "padding": "2%" }
+                }
+              }
+            ]
+          },
+
+          {
+            "tag": "Link",
+            "content": "Continue",
+            "props": {
+              "to": "/otp"
+              
+            }
+          },
+          {
+            "tag": "p",
+            "content": "By Continuing, you agree to Amazon's ",
+            "children": [
+              {
+                "tag": "a",
+                "content": "Conditions of use and Privacy notice",
+                "props": {
+                  "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
+                  "style": { "text-decoration": "none", "color": "#7f8db0" }
+                }
+              }
+            ],
+            "pageKey": "page1"
+          },
+          { "tag": "p", "content": "contact for help", "pageKey": "page2" }
+        ]
       }
     ]
-  },
-  {
-    "tag": "button",
-    "content": "Component 2",
-    "props": {
-      "className": "component-2"
-    },
-    "onClick" : "alert",
-    "pageKey": "page1"
   }
 ]

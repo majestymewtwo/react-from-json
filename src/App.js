@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
-          <Route path="product" element={<Product />} />
+          <Route path="otp" element={<Product />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/configurecss.css";
+import { Link } from "react-router-dom";
 
 const onclick1 = {
   alert: () => {
@@ -25,12 +26,16 @@ const DynamicComponent = ({ config, pageKey }) => {
     if (componentPageKey && componentPageKey !== pageKey) {
       return null;
     }
+    if (ComponentTag == "img" || ComponentTag == "input") {
+      return <ComponentTag {...props} onClick={onclick1[onClick]} />;
+    }
+
+    if(ComponentTag =="Link"){
+      return <Link {...props}>{content}</Link>
+    }
 
     return (
-      <ComponentTag
-        {...props}
-        onClick={onclick1[onClick]}
-      >
+      <ComponentTag {...props} onClick={onclick1[onClick]}>
         {content}
         {children && children.map(renderComponent)}
       </ComponentTag>
