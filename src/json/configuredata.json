@@ -50,7 +50,7 @@
                 },
                 "pageKey": "page1"
               },
-              { "tag": "p", "content": "+91 9361455974", "pageKey": "page2" },
+              { "tag": "p", "contentcopy": "inputValue", "pageKey": "page2" },
               {
                 "tag": "div",
                 "children": [
@@ -81,19 +81,38 @@
                   }
                 },
                 "children": [
-                  {
-                    "tag": "input",
-                    "props": {
-                      "type": "text",
-                      "id": "phno",
-                      "style": {
-                        "width": "100%",
-                        "padding": "2%",
-                        "border-radius": 5,
-                        "border": "1px solid black"
-                      }
+                 {
+                  "tag":"input",
+                  "value":"inputValue",
+                  "onChange":"handleChange",
+                  "props": {
+                    "type": "text",
+                    "id": "phno",
+                    "style": {
+                      "width": "100%",
+                      "padding": "2%",
+                      "border-radius": 5,
+                      "border": "1px solid black"
                     }
-                  }
+                 },
+                 "pageKey":"page1"
+                },
+                {
+                  "tag":"input",
+                  "value":"inputValue1",
+                  "onChange":"handleChange1",
+                  "props": {
+                    "type": "text",
+                    "id": "phno",
+                    "style": {
+                      "width": "100%",
+                      "padding": "2%",
+                      "border-radius": 5,
+                      "border": "1px solid black"
+                    }
+                 },
+                 "pageKey":"page2"
+                }
                 ]
               },
 
@@ -277,5 +296,7 @@
         ]
       }
     ]
+   
   }
+ 
 ]

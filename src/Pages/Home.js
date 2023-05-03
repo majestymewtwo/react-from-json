@@ -3,9 +3,10 @@ import DynamicComponent from "../components/DynamicComponent";
 
 export default function Home() {
   const pageKey = 'page1';
+  
   return (
     <div>
-      <DynamicComponent config={data} pageKey={pageKey}/>
+      <DynamicComponent config={data} pageKey={pageKey}  />
     </div>
   );
 }
