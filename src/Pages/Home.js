@@ -4,10 +4,11 @@ import search from "../json/searchconfig.json"
 import searc from "../json/search.json"
 
 export default function Home() {
-  const pageKey = 'page2';
+  const pageKey = 'page1';
+  
   return (
     <div>
-      <DynamicComponent config={searc} pageKey={pageKey}/>
+      <DynamicComponent config={data} pageKey={pageKey}  />
     </div>
   );
 }

@@ -5,86 +5,298 @@
       "style": {
         "width": "100%",
         "display": "flex",
-        "justify-content": "center"
+        "flex-direction": "column",
+        "margin": "auto"
       }
     },
     "children": [
       {
+        "tag": "img",
+        "props": {
+          "src": "https://www.adgully.com/img/800/201910/image002.png.jpg",
+          "style": {
+            "width": "20%",
+
+            "align-self": "center"
+          }
+        }
+      },
+      {
         "tag": "div",
         "props": {
-          "className": "heading",
-          "style": { "border": "1px solid black", "margin": "10px" }
+          "style": {
+            "width": "100%",
+            "display": "flex",
+            "justify-content": "center"
+          }
         },
         "children": [
-          { "tag": "h2", "content": "Sign in" },
-          {
-            "tag": "h4",
-            "content": "Email or mobile phone number",
-            "pageKey": "page1"
-          },
-          { "tag": "h4", "content": "+91 9361455974", "pageKey": "page2" },
           {
             "tag": "div",
+            "props": {
+              "className": "heading",
+              "style": { "border": "1px solid #cacbcc", "margin": "10px" }
+            },
             "children": [
-              { "tag": "p", "content": "Password" },
+              { "tag": "h3", "content": "Sign in" },
               {
-                "tag": "a",
-                "content": "Forgot password",
+                "tag": "p",
+                "content": "Email or mobile phone number",
                 "props": {
-                  "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
-                  "style": { "text-decoration": "none", "color": "#7f8db0" }
+                  "style": {
+                    "font-weight": "bold",
+                    "marginTop": "5%"
+                  }
+                },
+                "pageKey": "page1"
+              },
+              { "tag": "p", "contentcopy": "inputValue", "pageKey": "page2" },
+              {
+                "tag": "div",
+                "children": [
+                  { "tag": "p", "content": "Password" },
+                  {
+                    "tag": "a",
+                    "content": "Forgot password",
+                    "props": {
+                      "href": "https://www.amazon.in/gp/help/customer/account-issues/ref=ap_cs_forgot_pwd?ie=UTF8",
+                      "style": { "text-decoration": "none", "color": "#7f8db0" }
+                    }
+                  }
+                ],
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-self": "center"
+                  }
+                },
+                "pageKey": "page2"
+              },
+              {
+                "tag": "form",
+                "props": {
+                  "style": {
+                    "marginTop": -9
+                  }
+                },
+                "children": [
+                 {
+                  "tag":"input",
+                  "value":"inputValue",
+                  "onChange":"handleChange",
+                  "props": {
+                    "type": "text",
+                    "id": "phno",
+                    "style": {
+                      "width": "100%",
+                      "padding": "2%",
+                      "border-radius": 5,
+                      "border": "1px solid black"
+                    }
+                 },
+                 "pageKey":"page1"
+                },
+                {
+                  "tag":"input",
+                  "value":"inputValue1",
+                  "onChange":"handleChange1",
+                  "props": {
+                    "type": "text",
+                    "id": "phno",
+                    "style": {
+                      "width": "100%",
+                      "padding": "2%",
+                      "border-radius": 5,
+                      "border": "1px solid black"
+                    }
+                 },
+                 "pageKey":"page2"
                 }
-              }
-            ],
+                ]
+              },
+
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "backgroundColor": "#f5d442",
+                    "width": "100%",
+                    "display": "flex",
+                    "justify-content": "center",
+                    "marginTop": "5%",
+                    "padding": "1%",
+                    "border-radius": 5
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "Link",
+                    "content": "Continue",
+                    "props": {
+                      "to": "/otp",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "black"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "content": "By continuing, you agree to Amazon's ",
+                "props": {
+                  "style": {
+                    "marginTop": "5%",
+                    "fontSize": 12.5
+                  }
+                },
+
+                "children": [
+                  {
+                    "tag": "a",
+                    "content": "Conditions of use and Privacy notice",
+                    "props": {
+                      "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  }
+                ],
+                "pageKey": "page1"
+              },
+              { "tag": "a", "content": "contact for help","props":{"href":"https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510","style":{"text-decoration":"none","color": "#4574c4",
+              "fontSize": 12.5}}, "pageKey": "page2" }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "props": {
+          "style": {
+            "marginLeft":"30%",
+            "marginRight":"30%"
+          }
+        },
+        "children": [
+          {
+            "tag": "div",
             "props": {
               "style": {
                 "display": "flex",
-                "justify-content": "space-between",
-                "align-self": "center"
+                "justify-content": "center"
               }
             },
-            "pageKey": "page2"
-          },
-          {
-            "tag": "form",
             "children": [
               {
-                "tag": "input",
+                "tag": "hr",
                 "props": {
-                  "type": "text",
-                  "id": "phno",
-                  "style": { "width": "100%", "padding": "2%" }
+                  "style": {
+                    "width": "20%",
+
+                    "color": "#989b9c"
+                  }
+                }
+              },
+              {
+                "tag": "p",
+                "content": "New to amazon?",
+                "props": { "style": { "color": "#989b9c" } }
+              },
+              {
+                "tag": "hr",
+                "props": {
+                  "style": {
+                    "width": "20%",
+
+                    "color": "#989b9c"
+                  }
                 }
               }
             ]
           },
-
           {
-            "tag": "Link",
-            "content": "Continue",
+            "tag": "div",
             "props": {
-              "to": "/otp"
-              
-            }
-          },
-          {
-            "tag": "p",
-            "content": "By Continuing, you agree to Amazon's ",
+              "style": {
+                "width": "60%",
+                "display": "flex",
+                "justify-content": "center",
+                "marginTop": "1%",
+                "border-radius": 5,
+                "align-self": "center",
+                "margin": "auto",
+                "border": "1px solid black",
+                "padding":"1%"
+              }
+            },
             "children": [
               {
-                "tag": "a",
-                "content": "Conditions of use and Privacy notice",
+                "tag": "Link",
+                "content": "Create an account",
                 "props": {
-                  "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
-                  "style": { "text-decoration": "none", "color": "#7f8db0" }
+                  "to": "/otp",
+                  "style": {
+                    "text-decoration": "none",
+                    "color": "black"
+                  }
                 }
               }
-            ],
-            "pageKey": "page1"
+            ]
           },
-          { "tag": "p", "content": "contact for help", "pageKey": "page2" }
+          {
+            "tag": "div",
+            "props": {
+              "style": {
+                "marginTop": "5%"
+              }
+            },
+            "children": [
+              {
+                "tag": "hr",
+                "props": {
+                  "style": {
+                    "width": "100%",
+
+                    "zoom": 1,
+                    
+                    
+                    "height": "44px",
+                    "color": "#989b9c"
+                  }
+                }
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                   "marginLeft":"20%",
+                   "marginRight":"20%",
+                   "marginTop":"5%"
+                  }
+                },
+                "children": [
+                  { "tag": "a", "content": "conditions of use" ,"props":{"href":"https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940","style":{"text-decoration":"none","color": "#4574c4",
+                  "fontSize": 12.5}}},
+                  { "tag": "a", "content": "Privacy Notice","props":{"href":"https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380","style":{"text-decoration":"none","color": "#4574c4",
+                  "fontSize": 12.5}} },
+                  { "tag": "a", "content": "Help","props":{"href":"https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510","style":{"text-decoration":"none","color": "#4574c4",
+                  "fontSize": 12.5}} }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
+   
   }
+ 
 ]
