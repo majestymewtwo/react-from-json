@@ -11,18 +11,16 @@ function App() {
   const [inputValue,setInputValue]=useState(' ');
 
   return (
-    <MyContext.Provider value={{val:[inputValue,setInputValue]}}>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route index element={<Home/>} />
-          <Route path="otp" element={<Product />} />
-          
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <MyContext.Provider value={{ val: [inputValue, setInputValue] }}>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path='otp' element={<Product />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </MyContext.Provider>
-  
   );
 }
 
