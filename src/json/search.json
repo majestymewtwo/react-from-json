@@ -1,0 +1,139 @@
+[
+  {
+    "tag": "div",
+    "props": { "onClick": "toggleDropdown" },
+    "children": [
+      {
+        "tag": "input",
+        "props": { "type": "text", "placeholder": "Search for products..." }
+      },
+      { "tag": "button", "props": { "type": "submit" }, "content": "Search" }
+    ]
+  },
+  {
+    "tag": "div",
+    "props": {},
+    "condition": "isDropdownOpen",
+    "pageKey": "page2",
+    "children": [
+      {
+        "tag": "div",
+        "props": {},
+        "children": [
+          { "tag": "span", "props": {}, "content": "Price" },
+          {
+            "tag": "input",
+            "props": { "type": "text", "placeholder": "Min" }
+          },
+          { "tag": "span", "props": {}, "content": "-" },
+          {
+            "tag": "input",
+            "props": { "type": "text", "placeholder": "Max" }
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "props": {},
+        "children": [
+          {
+            "tag": "span",
+            "props": {},
+            "content": "Size"
+          },
+          {
+            "tag": "input",
+            "props": {
+              "type": "text",
+              "placeholder": "Min"
+            }
+          },
+          {
+            "tag": "span",
+            "props": {},
+            "content": "-"
+          },
+          {
+            "tag": "input",
+            "props": {
+              "type": "text",
+              "placeholder": "Max"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "props": {
+      "style": {
+        "position": "absolute",
+        "top": "100%",
+        "left": 0,
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)",
+        "padding": "8px",
+        "width": "100%"
+      }
+    },
+    "condition": "isDropdownOpen",
+    "children": [
+      {
+        "tag": "a",
+        "props": {
+          "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
+          "type": "submit",
+          "style": {
+            "backgroundColor": "#eee",
+            "color": "black",
+            "padding": "8px 16px",
+            "borderRadius": "8px",
+            "marginLeft": "10px",
+            "fontSize": "1rem",
+            "border": "none",
+            "cursor": "pointer"
+          }
+        },
+        "content": "Object 1"
+      },
+      {
+        "tag": "a",
+        "props": {
+          "href": "/otp",
+          "type": "submit",
+          "style": {
+            "backgroundColor": "#eee",
+            "color": "black",
+            "padding": "8px 16px",
+            "borderRadius": "8px",
+            "marginLeft": "10px",
+            "fontSize": "1rem",
+            "border": "none",
+            "cursor": "pointer"
+          }
+        },
+        "content": "Object 2"
+      },
+      {
+        "tag": "a",
+        "props": {
+          "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
+          "type": "submit",
+          "style": {
+            "backgroundColor": "#eee",
+            "color": "black",
+            "padding": "8px 16px",
+            "borderRadius": "8px",
+            "marginLeft": "10px",
+            "fontSize": "1rem",
+            "border": "none",
+            "cursor": "pointer"
+          }
+        },
+        "content": "Object 3"
+      }
+    ]
+  }
+]
