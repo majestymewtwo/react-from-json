@@ -1,4 +1,4 @@
-import React,{useState,useContext} from "react";
+import React, { useState, useContext } from "react";
 import "../css/configurecss.css";
 import { MyContext } from "../context/inputCopy";
 
@@ -37,6 +37,7 @@ const DynamicComponent = ({ config, pageKey }) => {
       children,
       contentcopy,
       value,
+      variable,
       onChange,
       onClick,
       pageKey: componentPageKey,
@@ -48,9 +49,9 @@ const DynamicComponent = ({ config, pageKey }) => {
     }
 
     if (
-      ComponentTag === "input" ||
-      ComponentTag === "img" ||
-      ComponentTag === "hr"
+      ComponentTag == "input" ||
+      ComponentTag == "img" ||
+      ComponentTag == "hr"
     ) {
       return (
         <ComponentTag
@@ -61,7 +62,7 @@ const DynamicComponent = ({ config, pageKey }) => {
         />
       );
     }
-    if (ComponentTag === "Link") {
+    if (ComponentTag == "Link") {
       return <Link {...props}>{content}</Link>;
     }
 

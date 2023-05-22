@@ -83,8 +83,8 @@
                 "children": [
                  {
                   "tag":"input",
-                  "value":"inputValue",
-                  "onChange":"handleChange",
+                  "value":"mobile",
+                  "onChange":"handleMobile",
                   "props": {
                     "type": "text",
                     "id": "phno",
@@ -96,6 +96,9 @@
                     }
                  },
                  "pageKey":"page1"
+                },{
+                  "tag":"p",
+                  "variable":"mobile"
                 },
                 {
                   "tag":"input",
