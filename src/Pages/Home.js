@@ -11,6 +11,7 @@ export default function Home() {
     },
     alert2: () => {
       alert("Alert2 Alert2 Alert2");
+      
     },
     mobile:mobile,
     handleMobile:(event)=>{
