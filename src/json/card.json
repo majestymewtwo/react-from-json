@@ -354,7 +354,7 @@
                         "color": "#27374D"
                       }
                     },
-                    "content": "$29.99"
+                    "content": "$19.49"
                   }
                 ]
               },
@@ -376,7 +376,7 @@
                         "fontSize": "1.1rem"
                       }
                     },
-                    "content": "Men's Sweatshirt"
+                    "content": "Kids's Sweatshirt"
                   }
                 ]
               },
@@ -453,6 +453,28 @@
                           }
                         },
                         "content": "L"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "XL"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "2XL"
                       }
                     ]
                   }
@@ -506,7 +528,7 @@
                           "style": {
                             "height": "30px",
                             "width": "30px",
-                            "backgroundColor": "white",
+                            "backgroundColor": "gray",
                             "marginRight": "2%",
                             "borderRadius": "100%"
                           }
@@ -519,6 +541,32 @@
                             "height": "30px",
                             "width": "30px",
                             "backgroundColor": "yellow",
+                            "borderSize": "3px",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "green",
+                            "borderSize": "3px",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "purple",
                             "borderSize": "3px",
                             "marginRight": "2%",
                             "borderRadius": "100%"
