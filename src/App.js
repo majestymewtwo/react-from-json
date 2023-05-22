@@ -7,8 +7,9 @@ import Product from "./Pages/Product";
 import Layout from "./Pages/Layout";
 
 import {MyContext} from "./context/inputCopy"
+import ProductCard from "./Pages/ProductCard";
 function App() {
-  const [inputValue,setInputValue]=useState(' ');
+  const [inputValue, setInputValue] = useState(" ");
 
   return (
     <MyContext.Provider value={{ val: [inputValue, setInputValue] }}>
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='otp' element={<Product />} />
+            <Route path='product/:id' element={<ProductCard />} />
           </Route>
         </Routes>
       </BrowserRouter>

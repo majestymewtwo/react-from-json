@@ -283,12 +283,66 @@
                   }
                 },
                 "children": [
-                  { "tag": "a", "content": "conditions of use" ,"props":{"href":"https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940","style":{"text-decoration":"none","color": "#4574c4",
-                  "fontSize": 12.5}}},
-                  { "tag": "a", "content": "Privacy Notice","props":{"href":"https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380","style":{"text-decoration":"none","color": "#4574c4",
-                  "fontSize": 12.5}} },
-                  { "tag": "a", "content": "Help","props":{"href":"https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510","style":{"text-decoration":"none","color": "#4574c4",
-                  "fontSize": 12.5}} }
+                  {
+                    "tag": "a",
+                    "content": "conditions of use",
+                    "props": {
+                      "href": "https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  },
+                  {
+                    "tag": "a",
+                    "content": "product 1",
+                    "props": {
+                      "href": "/product/1",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  },
+                  {
+                    "tag": "a",
+                    "content": "product 2",
+                    "props": {
+                      "href": "/product/2",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  },
+                  {
+                    "tag": "a",
+                    "content": "Privacy Notice",
+                    "props": {
+                      "href": "https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  },
+                  {
+                    "tag": "a",
+                    "content": "Help",
+                    "props": {
+                      "href": "https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510",
+                      "style": {
+                        "text-decoration": "none",
+                        "color": "#4574c4",
+                        "fontSize": 12.5
+                      }
+                    }
+                  }
                 ]
               }
             ]

@@ -1,0 +1,582 @@
+[
+  {
+    "tag": "div",
+    "props": {
+      "style": {
+        "position": "relative",
+        "height": "100vh",
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center"
+      }
+    },
+    "children": [
+      {
+        "tag": "div",
+        "pageKey": "page1",
+        "props": {
+          "alt": "t-shirt",
+          "style": {
+            "backgroundImage": "url('https://cdn.discordapp.com/attachments/1096392973387837462/1110130937091592242/my-template-271684520263630.png')",
+            "backgroundClip": "padding-box",
+            "backgroundRepeat": "no-repeat",
+            "backgroundSize": "cover",
+            "height": "600px",
+            "width": "500px",
+            "position": "relative"
+          }
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "style": {
+                "height": "auto",
+                "padding": "2% 4%",
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "backgroundColor": "#EAEAEA"
+              }
+            },
+            "children": [
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    "padding": "2% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "500",
+                        "fontSize": "1.6rem"
+                      }
+                    },
+                    "content": "One Piece Originals"
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "900",
+                        "fontSize": "1.5rem",
+                        "color": "#27374D"
+                      }
+                    },
+                    "content": "$29.99"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "300",
+                        "fontSize": "1.1rem"
+                      }
+                    },
+                    "content": "Men's Sweatshirt"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "SIZE"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "XS"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "S"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "M"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "L"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "COLOUR"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "red",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "white",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "yellow",
+                            "borderSize": "3px",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "marginTop": "4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "BUY NOW"
+                  },
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "ADD TO CART"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "pageKey": "page2",
+        "props": {
+          "alt": "t-shirt",
+          "style": {
+            "backgroundImage": "url('https://media.discordapp.net/attachments/1096392973387837462/1110142391085694996/my-template-271683748130959.png?width=591&height=662')",
+            "backgroundClip": "padding-box",
+            "backgroundRepeat": "no-repeat",
+            "backgroundSize": "cover",
+            "height": "600px",
+            "width": "500px",
+            "position": "relative"
+          }
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "style": {
+                "height": "auto",
+                "padding": "2% 4%",
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "backgroundColor": "#EAEAEA"
+              }
+            },
+            "children": [
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    "padding": "2% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "500",
+                        "fontSize": "1.6rem"
+                      }
+                    },
+                    "content": "Kool Kat Originals"
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "900",
+                        "fontSize": "1.5rem",
+                        "color": "#27374D"
+                      }
+                    },
+                    "content": "$29.99"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "300",
+                        "fontSize": "1.1rem"
+                      }
+                    },
+                    "content": "Men's Sweatshirt"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "SIZE"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "XS"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "S"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "M"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "L"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "COLOUR"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "red",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "white",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "yellow",
+                            "borderSize": "3px",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "marginTop": "4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "BUY NOW"
+                  },
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "ADD TO CART"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
