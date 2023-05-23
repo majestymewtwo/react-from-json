@@ -3,11 +3,10 @@
     "tag": "div",
     "props": {
       "style": {
-        "position": "relative",
-        "height": "100vh",
-        "display": "flex",
-        "justify-content": "center",
-        "align-items": "center"
+        "height": "auto",
+        "width": "550px",
+        "marginBottom": "20px",
+        "padding": "0%"
       }
     },
     "children": [
@@ -23,7 +22,9 @@
             "backgroundSize": "cover",
             "height": "600px",
             "width": "500px",
-            "position": "relative"
+            "position": "relative",
+            "border": "2px #EAEAEA solid",
+            "margin": "0% 5%"
           }
         },
         "children": [
@@ -306,7 +307,9 @@
             "backgroundSize": "cover",
             "height": "600px",
             "width": "500px",
-            "position": "relative"
+            "position": "relative",
+            "border": "2px #EAEAEA solid",
+            "margin": "0% 5%"
           }
         },
         "children": [
@@ -606,6 +609,702 @@
                   },
                   {
                     "tag": "button",
+                    "onClick": "handleClick",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "ADD TO CART"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "pageKey": "page3",
+        "props": {
+          "style": {
+            "height": "650px",
+            "width": "500px",
+            "position": "relative",
+            "border": "2px #EAEAEA solid",
+            "margin": "0% 5%"
+          }
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "style": {
+                "height": "100%",
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "backgroundColor": "#EAEAEA"
+              }
+            },
+            "children": [
+              {
+                "tag": "img",
+                "props": {
+                  "src": "https://media.discordapp.net/attachments/929970884549173278/1110500916307701790/nike-shoe.jpg?width=718&height=391",
+                  "alt": "nike-shoe",
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    "padding": "2% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "500",
+                        "fontSize": "1.6rem"
+                      }
+                    },
+                    "content": "Nike Mens Blazer Low"
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "900",
+                        "fontSize": "1.5rem",
+                        "color": "#27374D"
+                      }
+                    },
+                    "content": "₹8,029"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "300",
+                        "fontSize": "1.1rem"
+                      }
+                    },
+                    "content": "Men's Running Shoes"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "EURO SIZE"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "35"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "36"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "37"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "38"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "39"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "40"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "US SIZE"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "5"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "6"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "7"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "8"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "9"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "10"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "COLOUR"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "black",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "gray",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "marginTop": "4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "BUY NOW"
+                  },
+                  {
+                    "tag": "button",
+                    "onClick": "handleClick",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "ADD TO CART"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "pageKey": "page4",
+        "props": {
+          "alt": "phone",
+          "style": {
+            "height": "650px",
+            "width": "500px",
+            "position": "relative",
+            "border": "2px #EAEAEA solid",
+            "margin": "0% 5%"
+          }
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "style": {
+                "backgroundColor": "#EAEAEA",
+                "height": "100%",
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "children": [
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "backgroundColor": "white"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "img",
+                    "props": {
+                      "src": "https://media.discordapp.net/attachments/929970884549173278/1110501110172635196/one_plus.jpg?width=662&height=662",
+                      "alt": "phone",
+                      "style": {
+                        "width": "300px"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    "padding": "2% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "500",
+                        "fontSize": "1.6rem"
+                      }
+                    },
+                    "content": "OnePlus Nord CE 2 Lite 5G"
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "900",
+                        "fontSize": "1.5rem",
+                        "color": "#27374D"
+                      }
+                    },
+                    "content": "₹18,999"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "300",
+                        "fontSize": "1.1rem"
+                      }
+                    },
+                    "content": "Budget Smartphones"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "RAM"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "6GB"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "8GB"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "STORAGE"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "128GB"
+                      },
+                      {
+                        "tag": "h6",
+                        "props": {
+                          "style": {
+                            "fontSize": "1.2rem",
+                            "marginRight": "2%",
+                            "fontWeight": "300"
+                          }
+                        },
+                        "content": "256GB"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "style": {
+                        "fontWeight": "800",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    "content": "COLOUR"
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "style": {
+                        "display": "flex"
+                      }
+                    },
+                    "children": [
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "aqua",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "backgroundColor": "black",
+                            "marginRight": "2%",
+                            "borderRadius": "100%"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "padding": "0% 4%",
+                    "marginTop": "4%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "tag": "button",
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#27374D",
+                        "color": "white",
+                        "margin": "2% 0%",
+                        "border": "none",
+                        "padding": "2% 6%",
+                        "textAlign": "center",
+                        "borderRadius": "20px"
+                      }
+                    },
+                    "content": "BUY NOW"
+                  },
+                  {
+                    "tag": "button",
+                    "onClick": "handleClick",
                     "props": {
                       "style": {
                         "backgroundColor": "#27374D",

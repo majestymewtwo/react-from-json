@@ -300,21 +300,9 @@
                   },
                   {
                     "tag": "a",
-                    "content": "product 1",
+                    "content": "Our products",
                     "props": {
-                      "href": "/product/1",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
-                      }
-                    }
-                  },
-                  {
-                    "tag": "a",
-                    "content": "product 2",
-                    "props": {
-                      "href": "/product/2",
+                      "href": "/product",
                       "style": {
                         "text-decoration": "none",
                         "color": "#4574c4",
