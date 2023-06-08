@@ -1,12 +1,14 @@
 [
   {
-    "tag": "div",
+    "tag": "a",
     "props": {
+      "href": "/sweatshirt/red",
       "style": {
         "height": "auto",
         "width": "550px",
         "marginBottom": "20px",
-        "padding": "0%"
+        "padding": "0%",
+        "textDecoration": "none"
       }
     },
     "children": [

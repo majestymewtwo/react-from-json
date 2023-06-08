@@ -1,0 +1,410 @@
+[
+  {
+    "tag": "div",
+    "props": {},
+    "content": "",
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "flex justify-between bg-[#232F3E] p-4"
+        },
+        "content": "",
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "className": "flex space-x-2"
+            },
+            "content": "",
+            "children": [
+              {
+                "tag": "a",
+                "props": {
+                  "href": "/"
+                },
+                "children": [
+                  {
+                    "tag": "img",
+                    "props": {
+                      "src": "https://companieslogo.com/img/orig/AMZN_BIG.D-8fb0be81.png?t=1632523695",
+                      "alt": "amazon-logo",
+                      "className": "h-10"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "props": {
+              "className": "flex"
+            },
+            "content": "",
+            "children": [
+              {
+                "tag": "input",
+                "props": {
+                  "type": "text",
+                  "className": "focus:outline-none px-3 py-[1px] rounded-l-md",
+                  "placeholder": "Search Amazon.com"
+                }
+              },
+              {
+                "tag": "span",
+                "props": {
+                  "className": "w-16 bg-[#F3A847] p-[5px] rounded-r-md cursor-pointer flex items-center justify-center"
+                },
+                "content": "",
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {},
+                    "content": "Search",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "props": {
+          "className": "flex justify-center py-20"
+        },
+        "content": "",
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "className": "flex justify-center items-center flex-row w-[80%] mx-auto"
+            },
+            "content": "",
+            "children": [
+              {
+                "tag": "div",
+                "props": {
+                  "className": "w-1/3"
+                },
+                "content": "",
+                "children": [
+                  {
+                    "tag": "img",
+                    "pageKey": "red",
+                    "props": {
+                      "alt": "ecommerce",
+                      "className": "object-contain object-center rounded px-2 h-[400px]",
+                      "src": "https://media.discordapp.net/attachments/929970884549173278/1111153055472296016/my-template-271684520276998.png?width=591&height=662"
+                    }
+                  },
+                  {
+                    "tag": "img",
+                    "pageKey": "yellow",
+                    "props": {
+                      "alt": "ecommerce",
+                      "className": "object-contain object-center rounded px-2 h-[400px]",
+                      "src": "https://media.discordapp.net/attachments/929970884549173278/1111153055736541224/my-template-271684520270769.png?width=591&height=662"
+                    }
+                  },
+                  {
+                    "tag": "img",
+                    "pageKey": "white",
+                    "props": {
+                      "alt": "ecommerce",
+                      "className": "object-contain object-center rounded px-2 h-[400px]",
+                      "src": "https://media.discordapp.net/attachments/929970884549173278/1111153056080461874/my-template-271684520263630.png?width=591&height=662"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "props": {
+                  "className": "w-2/3"
+                },
+                "content": "",
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "className": "text-gray-900 text-xl md:text-3xl title-font font-medium mb-1"
+                    },
+                    "content": "One Piece Sweatshirts - Men",
+                    "children": []
+                  },
+                  {
+                    "tag": "span",
+                    "props": {},
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "h1",
+                        "props": {},
+                        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.\n                Dignissimos rem aliquam sapiente, repudiandae possimus\n                asperiores minus neque nobis eum, quo reprehenderit. Porro\n                minima atque, mollitia error in expedita, praesentium sapiente\n                dolorum suscipit minus rem dolorem qui eligendi consequatur\n                pariatur nobis.",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "flex mb-4 items-center"
+                    }
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "flex flex-row items-baseline"
+                    },
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "props": {
+                          "className": "title-font font-medium text-2xl text-gray-900 mr-2 flex justify-center"
+                        },
+                        "content": "\u20b91,000",
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "className": "title-font line-through font-small text-lg\n                                text-gray-600 mr-2 flex justify-center"
+                        },
+                        "content": "\u20b9900",
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "props": {
+                          "className": "bg-primary rounded-lg mr-2 px-2 py-1 scale-75 text-base text-white flex justify-center"
+                        },
+                        "content": "10% off",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "className": "my-3"
+                    },
+                    "content": "Colors",
+                    "children": []
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "flex items-center"
+                    },
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "props": {
+                          "className": "flex space-x-2"
+                        },
+                        "content": "",
+                        "children": [
+                          {
+                            "tag": "Link",
+                            "props": {
+                              "to": "/sweatshirt/red",
+                              "className": "cursor-pointer h-8 w-8 bg-red-500 rounded-full border-2 border-slate-500"
+                            }
+                          },
+                          {
+                            "tag": "Link",
+                            "props": {
+                              "to": "/sweatshirt/yellow",
+                              "className": "cursor-pointer h-8 w-8 bg-yellow-500 rounded-full border-2 border-slate-500"
+                            }
+                          },
+                          {
+                            "tag": "Link",
+                            "props": {
+                              "to": "/sweatshirt/white",
+                              "className": "cursor-pointer h-8 w-8 bg-white-500 rounded-full border-2 border-slate-500"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "className": "my-3"
+                    },
+                    "content": "Sizes",
+                    "children": []
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "flex flex-col"
+                    },
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "props": {
+                          "className": "flex space-x-3"
+                        },
+                        "content": "",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "XS",
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "S",
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "M",
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "L",
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "XL",
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "border bg-primary text-white border-black rounded-md px-2 py-1 w-fit"
+                            },
+                            "content": "2XL",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "flex space-x-4 mt-12"
+                    },
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "props": {
+                          "className": "flex items-center space-x-2 h-10 my-auto"
+                        },
+                        "content": "",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "props": {
+                              "className": "flex flex-row h-10 rounded-lg w-36 relative bg-transparent"
+                            },
+                            "content": "",
+                            "children": [
+                              {
+                                "tag": "button",
+                                "props": {
+                                  "className": " bg-white text-center border border-gray text-primary hover:text-primary\n                  hover:bg-gray h-full w-20 rounded-l cursor-pointer outline-none"
+                                },
+                                "content": "",
+                                "children": [
+                                  {
+                                    "tag": "span",
+                                    "props": {
+                                      "className": "m-auto text-2xl font-thin"
+                                    },
+                                    "content": "-",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "tag": "input",
+                                "props": {
+                                  "className": "border border-gray focus:outline-none text-center w-full bg-white font-semibold text-md\n                      hover:text-primary focus:text-primary md:text-basecursor-default flex items-center text-primary outline-none",
+                                  "placeholder": "1"
+                                }
+                              },
+                              {
+                                "tag": "button",
+                                "props": {
+                                  "className": "bg-white text-center border border-gray text-primary hover:text-primary\n                          hover:bg-gray h-full w-20 rounded-r cursor-pointer"
+                                },
+                                "content": "",
+                                "children": [
+                                  {
+                                    "tag": "span",
+                                    "props": {
+                                      "className": "m-auto text-2xl font-thin"
+                                    },
+                                    "content": "+",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "button",
+                        "props": {
+                          "className": "text-center text-white px-4 py-2 rounded-lg bg-primary"
+                        },
+                        "content": "Add to Cart",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {},
+                    "content": "",
+                    "children": [
+                      {
+                        "tag": "h1",
+                        "props": {
+                          "className": "my-4"
+                        },
+                        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo\n                aspernatur voluptatibus soluta ipsa quis nulla consequuntur rem\n                deleniti quo, tempora a ipsum? Nam fuga impedit distinctio\n                aperiam odit voluptates minima.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

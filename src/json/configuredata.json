@@ -2,178 +2,86 @@
   {
     "tag": "div",
     "props": {
-      "style": {
-        "width": "100%",
-        "display": "flex",
-        "flex-direction": "column",
-        "margin": "auto"
-      }
+      "className": "flex flex-col border border-[#EAEAEA] shadow-xl rounded-lg w-[400px]",
+      "id": "Payment-Card"
     },
     "children": [
       {
-        "tag": "img",
-        "props": {
-          "src": "https://www.adgully.com/img/800/201910/image002.png.jpg",
-          "style": {
-            "width": "20%",
-
-            "align-self": "center"
-          }
-        }
-      },
-      {
         "tag": "div",
         "props": {
-          "style": {
-            "width": "100%",
-            "display": "flex",
-            "justify-content": "center"
-          }
+          "id": "Header",
+          "className": "bg-[#4F709C] p-4 space-y-10 w-full rounded-t-lg"
         },
         "children": [
           {
             "tag": "div",
             "props": {
-              "className": "heading",
-              "style": { "border": "1px solid #cacbcc", "margin": "10px" }
+              "className": "flex justify-start items-center space-x-4"
             },
             "children": [
-              { "tag": "h3", "content": "Sign in" },
               {
-                "tag": "p",
-                "content": "Email or mobile phone number",
+                "tag": "span",
                 "props": {
-                  "style": {
-                    "font-weight": "bold",
-                    "marginTop": "5%"
-                  }
+                  "className": "border border-white text-white py-2 px-3 rounded"
                 },
-                "pageKey": "page1"
-              },
-              { "tag": "p", "contentcopy": "inputValue", "pageKey": "page2" },
-              {
-                "tag": "div",
-                "children": [
-                  { "tag": "p", "content": "Password" },
-                  {
-                    "tag": "a",
-                    "content": "Forgot password",
-                    "props": {
-                      "href": "https://www.amazon.in/gp/help/customer/account-issues/ref=ap_cs_forgot_pwd?ie=UTF8",
-                      "style": { "text-decoration": "none", "color": "#7f8db0" }
-                    }
-                  }
-                ],
-                "props": {
-                  "style": {
-                    "display": "flex",
-                    "justify-content": "space-between",
-                    "align-self": "center"
-                  }
-                },
-                "pageKey": "page2"
+                "content": "M"
               },
               {
-                "tag": "form",
+                "tag": "h1",
                 "props": {
-                  "style": {
-                    "marginTop": -9
-                  }
+                  "className": "text-white"
                 },
-                "children": [
-                 {
-                  "tag":"input",
-                  "value":"mobile",
-                  "onChange":"handleMobile",
-                  "props": {
-                    "type": "text",
-                    "id": "phno",
-                    "style": {
-                      "width": "100%",
-                      "padding": "2%",
-                      "border-radius": 5,
-                      "border": "1px solid black"
-                    }
-                 },
-                 "pageKey":"page1"
-                },{
-                  "tag":"p",
-                  "variable":"mobile"
-                },
-                {
-                  "tag":"input",
-                  "value":"inputValue1",
-                  "onChange":"handleChange1",
-                  "props": {
-                    "type": "text",
-                    "id": "phno",
-                    "style": {
-                      "width": "100%",
-                      "padding": "2%",
-                      "border-radius": 5,
-                      "border": "1px solid black"
-                    }
-                 },
-                 "pageKey":"page2"
-                }
-                ]
-              },
-
+                "content": "Muthu Aanand"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "props": {
+              "className": "flex justify-between items-center"
+            },
+            "children": [
               {
                 "tag": "div",
                 "props": {
-                  "style": {
-                    "backgroundColor": "#f5d442",
-                    "width": "100%",
-                    "display": "flex",
-                    "justify-content": "center",
-                    "marginTop": "5%",
-                    "padding": "1%",
-                    "border-radius": 5
-                  }
+                  "className": "flex flex-col space-y-3"
                 },
                 "children": [
                   {
-                    "tag": "Link",
-                    "content": "Continue",
+                    "tag": "h1",
                     "props": {
-                      "to": "/otp",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "black"
-                      }
-                    }
+                      "className": "text-slate-300"
+                    },
+                    "content": "Total Amount"
+                  },
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "className": "text-white text-2xl"
+                    },
+                    "content": "₹ 2,400"
                   }
                 ]
               },
               {
-                "tag": "p",
-                "content": "By continuing, you agree to Amazon's ",
+                "tag": "div",
                 "props": {
-                  "style": {
-                    "marginTop": "5%",
-                    "fontSize": 12.5
-                  }
+                  "className": "text-white"
                 },
-
                 "children": [
                   {
-                    "tag": "a",
-                    "content": "Conditions of use and Privacy notice",
+                    "tag": "h1",
+                    "content": "Secured by"
+                  },
+                  {
+                    "tag": "img",
                     "props": {
-                      "href": "https://www.primevideo.com/detail/0ND7Y71UEBCZB0EV0P5ZAWWZBD/ref=dvm_src_ret_in_xx_s",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
-                      }
+                      "src": "https://d6xcmfyh68wv8.cloudfront.net/newsroom-content/uploads/2021/02/white.png",
+                      "className": "w-32"
                     }
                   }
-                ],
-                "pageKey": "page1"
-              },
-              { "tag": "a", "content": "contact for help","props":{"href":"https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510","style":{"text-decoration":"none","color": "#4574c4",
-              "fontSize": 12.5}}, "pageKey": "page2" }
+                ]
+              }
             ]
           }
         ]
@@ -181,167 +89,449 @@
       {
         "tag": "div",
         "props": {
-          "style": {
-            "marginLeft":"30%",
-            "marginRight":"30%"
-          }
+          "id": "Footer",
+          "className" : "bg-white"
         },
         "children": [
           {
             "tag": "div",
             "props": {
-              "style": {
-                "display": "flex",
-                "justify-content": "center"
-              }
+              "className": "p-4 flex flex-col space-y-12"
             },
+            "pageKey": "Phone",
             "children": [
               {
-                "tag": "hr",
+                "tag": "div",
                 "props": {
-                  "style": {
-                    "width": "20%",
-
-                    "color": "#989b9c"
+                  "className": "space-y-4"
+                },
+                "children": [
+                  {
+                    "tag": "h1",
+                    "props": {
+                      "className": "text-sm font-semibold"
+                    },
+                    "content": "Contact Details"
+                  },
+                  {
+                    "tag": "input",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-full",
+                      "placeholder": "Phone Number"
+                    },
+                    "value": "phone",
+                    "onChange": "handlePhoneChange"
                   }
-                }
+                ]
               },
               {
-                "tag": "p",
-                "content": "New to amazon?",
-                "props": { "style": { "color": "#989b9c" } }
+                "tag": "input",
+                "props": {
+                  "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-full",
+                  "placeholder": "Email (Optional)"
+                },
+                "value": "email",
+                "onChange": "handleEmailChange"
               },
               {
-                "tag": "hr",
+                "tag": "button",
+                "onClick": "handlePaymentProceed",
                 "props": {
-                  "style": {
-                    "width": "20%",
-
-                    "color": "#989b9c"
-                  }
-                }
+                  "className": "bg-[#4F709C] py-2 px-4 rounded text-white font-semibold"
+                },
+                "content": "Proceed"
               }
             ]
           },
           {
             "tag": "div",
+            "pageKey" : "PaymentOptions",
             "props": {
-              "style": {
-                "width": "60%",
-                "display": "flex",
-                "justify-content": "center",
-                "marginTop": "1%",
-                "border-radius": 5,
-                "align-self": "center",
-                "margin": "auto",
-                "border": "1px solid black",
-                "padding":"1%"
-              }
+              "className": "flex flex-col space-y-4 p-3"
             },
             "children": [
               {
-                "tag": "Link",
-                "content": "Create an account",
+                "tag": "h1",
                 "props": {
-                  "to": "/otp",
-                  "style": {
-                    "text-decoration": "none",
-                    "color": "black"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "tag": "div",
-            "props": {
-              "style": {
-                "marginTop": "5%"
-              }
-            },
-            "children": [
-              {
-                "tag": "hr",
-                "props": {
-                  "style": {
-                    "width": "100%",
-
-                    "zoom": 1,
-                    
-                    
-                    "height": "44px",
-                    "color": "#989b9c"
-                  }
-                }
+                  "className": "font-semibold"
+                },
+                "content": "Pay with UPI QR"
               },
               {
                 "tag": "div",
                 "props": {
-                  "style": {
-                    "display": "flex",
-                    "justify-content": "space-between",
-                   "marginLeft":"20%",
-                   "marginRight":"20%",
-                   "marginTop":"5%"
-                  }
+                  "className": "flex space-x-4 p-2 border border-[#EAEAEA] rounded"
                 },
                 "children": [
                   {
-                    "tag": "a",
-                    "content": "conditions of use",
+                    "tag": "img",
                     "props": {
-                      "href": "https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
-                      }
+                      "src": "https://www.pngall.com/wp-content/uploads/2/QR-Code-PNG-Picture.png",
+                      "className": "w-32 h-32"
                     }
                   },
                   {
-                    "tag": "a",
-                    "content": "Our products",
+                    "tag": "div",
                     "props": {
-                      "href": "/product",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
+                      "className": "p-4"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "content": "Scan the QR Code using any UPI App"
+                      },
+                      {
+                        "tag": "div",
+                        "props": {
+                          "className": "flex flex-wrap items-center space-x-2 pt-2"
+                        },
+                        "children": [
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://i0.wp.com/zeevector.com/wp-content/uploads/Gpay-Logo-Vector-2.png?fit=1198%2C518&ssl=1",
+                              "id": "GooglePay",
+                              "className": "h-5"
+                            }
+                          },
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://w7.pngwing.com/pngs/827/101/png-transparent-paytm-logo-online-payment-brand-flat-icon-thumbnail.png",
+                              "id": "PayTM",
+                              "className": "h-5"
+                            }
+                          },
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://w7.pngwing.com/pngs/332/615/png-transparent-phonepe-india-unified-payments-interface-india-purple-violet-text-thumbnail.png",
+                              "id": "PhonePay",
+                              "className": "w-6"
+                            }
+                          }
+                        ]
                       }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "h1",
+                "props": {
+                  "className": "font-semibold"
+                },
+                "content": "Cards & More"
+              },
+              {
+                "tag" : "div",
+                "props" : {
+                  "className" : "flex flex-col"
+                },
+                "children" : [
+                  {
+                    "tag" : "div",
+                    "onClick" : "handleCard",
+                    "props" : {
+                      "className" : "border border-[#EAEAEA] py-2 px-3 hover:bg-slate-100 cursor-pointer transition-all ease-in-out duration-200 space-y-3"
+                    },
+                    "children" : [
+                      {
+                        "tag" : "h1",
+                        "props" : {
+                          "className" : "font-semibold text-slate-600"
+                        },
+                        "content" : "Card"
+                      },
+                      {
+                        "tag" : "img",
+                        "props" : {
+                          "src" : "https://www.freepnglogos.com/uploads/visa-and-mastercard-logo-26.png",
+                          "className" : "w-[80px]"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "onClick" : "handleNetBanking",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 hover:bg-slate-100 cursor-pointer transition-all ease-in-out duration-200 space-y-3"
+                    },
+                    "children": [
+                      {
+                        "tag": "h1",
+                        "props": {
+                          "className": "font-semibold text-slate-600"
+                        },
+                        "content": "Netbanking"
+                      },
+                      {
+                        "tag" : "div",
+                        "props" : {
+                          "className" : "flex flex-wrap items-center space-x-2"
+                        },
+                        "children" : [
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://e7.pngegg.com/pngimages/257/159/png-clipart-hdfc-logo-thumbnail-bank-logos.png",
+                              "className": "w-[30px]"
+                            }
+                          },
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://companieslogo.com/img/orig/AXISBANK.BO-8f59e95b.png?t=1672905040",
+                              "className": "h-[25px]"
+                            }
+                          },
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://companieslogo.com/img/orig/IBN-af38b5c0.png?t=1648383607",
+                              "className": "h-[25px]"
+                            }
+                          },
+                          {
+                            "tag": "img",
+                            "props": {
+                              "src": "https://seeklogo.com/images/S/sbi-logo-744E8B0C10-seeklogo.com.png",
+                              "className": "h-[25px]"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "button",
+                "onClick": "handleGoBackToPhone",
+                "props": {
+                  "className": "bg-[#4F709C] py-2 px-4 rounded text-white font-semibold"
+                },
+                "content": "Go Back"
+              }
+            ]
+          },
+          {
+            "tag" : "div",
+            "pageKey" : "NetBanking",
+            "props" : {
+              "className" : "flex flex-col space-y-6 p-3"
+            },
+            "children" : [
+              {
+                "tag" : "h1",
+                "props" : {
+                  "className" : "font-semibold"
+                },
+                "content" : "Select Bank"
+              },
+              {
+                "tag" : "div",
+                "props" : {
+                  "className" : "grid grid-cols-2"
+                },
+                "children" : [
+                  {
+                    "tag" : "div",
+                    "props" : {
+                      "className" : "border border-[#EAEAEA] py-2 px-3 flex flex-col items-center justify-center hover:bg-slate-100 transition-all ease-in-out duration-200 cursor-pointer"
+                    },
+                    "children" : [
+                      {
+                        "tag": "img",
+                        "props": {
+                          "src": "https://e7.pngegg.com/pngimages/257/159/png-clipart-hdfc-logo-thumbnail-bank-logos.png",
+                          "className": "w-[30px]"
+                        }
+                      },
+                      {
+                        "tag": "h1",
+                        "props" : {
+                          "className" : "text-sm"
+                        },
+                        "content": "HDFC"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 flex flex-col items-center justify-center hover:bg-slate-100 transition-all ease-in-out duration-200 cursor-pointer"
+                    },
+                    "children": [
+                      {
+                        "tag": "img",
+                        "props": {
+                          "src": "https://companieslogo.com/img/orig/AXISBANK.BO-8f59e95b.png?t=1672905040",
+                          "className": "w-[30px]"
+                        }
+                      },
+                      {
+                        "tag": "h1",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "content": "Axis"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 flex flex-col items-center justify-center hover:bg-slate-100 transition-all ease-in-out duration-200 cursor-pointer"
+                    },
+                    "children": [
+                      {
+                        "tag": "img",
+                        "props": {
+                          "src": "https://companieslogo.com/img/orig/IBN-af38b5c0.png?t=1648383607",
+                          "className": "w-[30px]"
+                        }
+                      },
+                      {
+                        "tag": "h1",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "content": "ICICI"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 flex flex-col items-center justify-center hover:bg-slate-100 transition-all ease-in-out duration-200 cursor-pointer"
+                    },
+                    "children": [
+                      {
+                        "tag": "img",
+                        "props": {
+                          "src": "https://seeklogo.com/images/S/sbi-logo-744E8B0C10-seeklogo.com.png",
+                          "className": "w-[30px]"
+                        }
+                      },
+                      {
+                        "tag": "h1",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "content": "SBI"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "button",
+                "onClick": "handleGoBackToOption",
+                "props": {
+                  "className": "bg-[#4F709C] py-2 px-4 rounded text-white font-semibold"
+                },
+                "content": "Go Back"
+              }
+            ]
+          },
+          {
+            "tag" : "div",
+            "pageKey" : "CardPayment",
+            "props" : {
+              "className" : "flex flex-col space-y-6 p-3"
+            },
+            "children" : [
+              {
+                "tag" : "h1",
+                "props" : {
+                  "className" : "font-semibold text-slate-600"
+                }, 
+                "content" : "Add New Card"
+              },
+              {
+                "tag" : "div",
+                "props" : {
+                  "className" : "flex justify-around space-x-3"
+                },
+                "children" : [
+                  {
+                    "tag" : "input",
+                    "props" : {
+                      "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-full",
+                      "placeholder" : "Card Number"
                     }
                   },
                   {
-                    "tag": "a",
-                    "content": "Privacy Notice",
+                    "tag": "input",
                     "props": {
-                      "href": "https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
-                      }
-                    }
-                  },
-                  {
-                    "tag": "a",
-                    "content": "Help",
-                    "props": {
-                      "href": "https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510",
-                      "style": {
-                        "text-decoration": "none",
-                        "color": "#4574c4",
-                        "fontSize": 12.5
-                      }
+                      "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-full",
+                      "placeholder": "Expiry"
                     }
                   }
                 ]
+              },
+              {
+                "tag" : "div",
+                "props" : {
+                  "className" : "flex justify-around space-x-3"
+                },
+                "children" : [
+                  {
+                    "tag" : "input",
+                    "props" : {
+                      "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-4/5",
+                      "placeholder" : "Card Holder's Name"
+                    }
+                  },
+                  {
+                    "tag": "input",
+                    "props": {
+                      "className": "border border-[#EAEAEA] py-2 px-3 focus:outline-none w-1/5",
+                      "placeholder": "CVV"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag" : "div",
+                "props" : {
+                  "className" : "flex space-x-3 items-center"
+                },
+                "children" : [
+                  {
+                    "tag" : "input",
+                    "props" : {
+                      "type" : "radio",
+                      "className" : "w-5 h-5 cursor-pointer"
+                    }
+                  },
+                  {
+                    "tag" : "h1",
+                    "content" : "Save card securely for future payments" 
+                  }
+                ]
+              },
+              {
+                "tag" : "a",
+                "props" : {
+                  "className" : "cursor-pointer underline underline-offset-2"
+                },
+                "content" : "Know More" 
+              },
+              {
+                "tag": "button",
+                "onClick": "handleGoBackToOption",
+                "props": {
+                  "className": "bg-[#4F709C] py-2 px-4 rounded text-white font-semibold"
+                },
+                "content": "Go Back"
               }
             ]
           }
         ]
       }
     ]
-   
   }
- 
 ]

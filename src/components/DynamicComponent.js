@@ -1,34 +1,8 @@
-import React, { useState, useContext } from "react";
-import "../css/configurecss.css";
-import { MyContext } from "../context/inputCopy";
+import React from "react";
 
 import { Link } from "react-router-dom";
 
-const onclick1 = {
-  alert: () => {
-    alert("Hello! I am an alert box!");
-  },
-  alert2: () => {
-    alert("Alert2 Alert2 Alert2");
-  },
-};
-
-const DynamicComponent = ({ config, pageKey }) => {
-  const { val } = useContext(MyContext);
-  const [inputValue, setInputValue] = val;
-  const [inputValue1, setInputValue1] = useState(" ");
-  const inp = {
-    inputValue,
-    inputValue1,
-  };
-  const setVal = {
-    handleChange: (event) => {
-      setInputValue(event.target.value);
-    },
-    handleChange1: (event) => {
-      setInputValue1(event.target.value);
-    },
-  };
+const DynamicComponent = ({ config, pageKey, eventListeners }) => {
   const renderComponent = (component) => {
     const {
       tag,
@@ -39,6 +13,7 @@ const DynamicComponent = ({ config, pageKey }) => {
       value,
       onChange,
       onClick,
+      onKeyDown,
       pageKey: componentPageKey,
     } = component;
     const ComponentTag = tag;
@@ -55,9 +30,10 @@ const DynamicComponent = ({ config, pageKey }) => {
       return (
         <ComponentTag
           {...props}
-          value={inp[value]}
-          onChange={setVal[onChange]}
-          onClick={onclick1[onClick]}
+          value={eventListeners[value]}
+          onChange={eventListeners[onChange]}
+          onClick={eventListeners[onClick]}
+          onKeyDown={eventListeners[onKeyDown]}
         />
       );
     }
@@ -67,17 +43,15 @@ const DynamicComponent = ({ config, pageKey }) => {
 
     if (contentcopy) {
       return (
-        <ComponentTag {...props} onClick={onclick1[onClick]}>
-          {inputValue}
-
+        <ComponentTag {...props} onClick={eventListeners[onClick]}>
           {children && children.map(renderComponent)}
         </ComponentTag>
       );
     }
-    return (
-      <ComponentTag {...props} onClick={onclick1[onClick]}>
-        {content}
 
+    return (
+      <ComponentTag {...props} onClick={eventListeners[onClick]}>
+        {content}
         {children && children.map(renderComponent)}
       </ComponentTag>
     );
